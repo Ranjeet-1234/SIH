@@ -1,0 +1,174 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dashboard-body {
+    background-color: rgb(191, 190, 190);
+    padding: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.navi-advoInf-dash{
+    display: flex;
+    /* justify-content: space-evenly; */
+    padding: 20px;
+    gap: 250px;
+    background: linear-gradient(rgb(148, 145, 145), rgb(156, 153, 153));
+}
+
+.adv-body {
+    display: flex;
+    justify-content: baseline;
+    gap: 10px;
+
+}
+
+.adv-logo {
+    margin-left: 65px;
+}
+
+.buttons-adv {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnnn {
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(253, 41, 41);
+
+}
+
+.btnnn:hover {
+    background-color: rgb(16, 45, 212);
+    color: white;
+}
+
+
+.table-top {
+    background-color: rgb(203, 203, 249);
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-bottom {
+    background-color: rgb(245, 247, 245);
+}
+
+.view-button {
+    background-color: rgb(253, 41, 41);
+    color: white;
+}
+
+
+
+tr:nth-child(even) {
+    background-color: #f9e1e1;
+}
+
+
+
+
+
+
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-data {
+    width: 100%;
+}
+
+.table-bottom {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    gap: 30px;
+    padding: 20px;
+}
+
+.top-ten {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.para-ten {
+
+    display: flex;
+    border: 1px solid black;
+    width: 40px;
+    height: 30px;
+    padding: 1px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.bottom-second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.pieChart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.barChart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+
+.shivamOne {
+    border: 1px solid black;
+}
+
+#select-case-optn {
+    width: 300px;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: 200;
+}
+
+.view-button {
+    padding: 5px;
+    width: 100px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid black;
+    text-align: center;
+}

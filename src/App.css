@@ -1,0 +1,11 @@
+@import './css/login.css';
+@import './css/dashboard.css';
+@import './css/pretrail.css';
+@import './css/report.css';
+@import './css/details.css';
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
