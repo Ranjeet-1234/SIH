@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams,useNavigate } from "react-router-dom";
-
+import urls from '../urls.json'
 export default function Report() {
 
     let navigate=  useNavigate();
@@ -8,7 +8,7 @@ export default function Report() {
     let [winProp, setWinProp] = useState();
     let [lifespan, setLifeSpan] = useState();
     useEffect(() => {
-        fetch(`https://pretrail-backend.onrender.com/case/${Params.id}`, {
+        fetch(`${urls.BASE_URL}case/${Params.id}`, {
             method: "GET"
         })
             .then((res) => {

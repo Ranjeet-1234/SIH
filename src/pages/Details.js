@@ -21,7 +21,7 @@ export default function Details() {
     let police_sta_code = useRef(null);
     let Params = useParams();
     useEffect(() => {
-        fetch(`https://pretrail-backend.onrender.com/petitioner/${Params.id}`)
+        fetch(`${urls.BASE_URL}petitioner/${Params.id}`)
             .then((res) => res.json())
             .then((response) => {
                 console.log(response)

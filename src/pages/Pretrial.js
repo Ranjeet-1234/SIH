@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import urls from '../urls.json';
 
 export default function Pretrial() {
     let [cases, setCases] = useState();
     useEffect(() => {
-        fetch("https://pretrail-backend.onrender.com/case", {
+        fetch(`${urls.BASE_URL}/case`, {
             method: "GET"
         })
             .then((res) => {

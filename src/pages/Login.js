@@ -2,6 +2,7 @@ import { useState,useRef } from 'react'
 import waveImg from '../image/wave.png'
 import satyama from '../image/satyama-removebg-preview.png'
 import { useNavigate } from 'react-router-dom';
+import urls from '../urls.json';
 
 export default function Login() {
     let [viewmessage ,setViewMessage]=useState(false);
@@ -15,7 +16,7 @@ export default function Login() {
     }
     function login(){
         console.log(admin)
-        fetch('https://pretrail-backend.onrender.com/admin/login',{
+        fetch(`${urls.BASE_URL}admin/login`,{
             method:"POST",
             headers:{
                 "Content-Type":"application/json"
