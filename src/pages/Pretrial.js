@@ -5,9 +5,8 @@ import urls from '../urls.json';
 export default function Pretrial() {
     let [cases, setCases] = useState();
     useEffect(() => {
-        fetch(`${urls.BASE_URL}case`, {
-            method: "GET"
-        })
+        console.log(urls.BASE_URL)
+        fetch(`${urls.BASE_URL}case`)
             .then((res) => {
                 return res.json();
             })

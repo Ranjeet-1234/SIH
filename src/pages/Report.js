@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useParams,useNavigate } from "react-router-dom";
+import { useParams,useNavigate} from "react-router-dom";
 import urls from '../urls.json'
 export default function Report() {
 
@@ -160,7 +160,9 @@ export default function Report() {
 
 
                     <div className="res-btn-div">
-                        <p className="resopnce-btn" /*</div>onClick={sendMail}*/>Send Response</p>
+                        <p className="resopnce-btn" onClick={()=>{
+                            navigate("/pretrail");
+                        }}>Send Response</p>
                     </div>
                 </div>
             </form>

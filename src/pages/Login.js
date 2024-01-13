@@ -15,7 +15,7 @@ export default function Login() {
         admin[Property]=value;
     }
     function login(){
-        console.log(admin)
+        // console.log()
         fetch(`${urls.BASE_URL}admin/login`,{
             method:"POST",
             headers:{
