@@ -1,6 +1,7 @@
 import { Link, useParams } from 'react-router-dom'
 import satyama from '../image/satyama-removebg-preview.png'
 import { useEffect, useRef} from 'react';
+import urls from '../urls.json'
 // import date from 'date';
 
 export default function Details() {
