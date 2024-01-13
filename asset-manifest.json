@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Ranjeet-1234/SIH/static/css/main.2d606f02.css",
+    "main.js": "/Ranjeet-1234/SIH/static/js/main.f3b4c7c5.js",
+    "static/media/wave.png": "/Ranjeet-1234/SIH/static/media/wave.40d1887aeaea7ecd70cb.png",
+    "static/media/satyama-removebg-preview.png": "/Ranjeet-1234/SIH/static/media/satyama-removebg-preview.9f4a1bc01b3349dfc513.png",
+    "index.html": "/Ranjeet-1234/SIH/index.html",
+    "main.2d606f02.css.map": "/Ranjeet-1234/SIH/static/css/main.2d606f02.css.map",
+    "main.f3b4c7c5.js.map": "/Ranjeet-1234/SIH/static/js/main.f3b4c7c5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d606f02.css",
+    "static/js/main.f3b4c7c5.js"
+  ]
+}
