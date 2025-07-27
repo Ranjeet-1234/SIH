@@ -86,7 +86,7 @@ export default function Login() {
                         <p>ForgotePassword?</p>
                         <input type="button" className="btn" value="Login"  onClick={()=>{
                             navigate('/dashboard');
-                            // login();
+                            login();
                         }} />
                     </form>
                 </div>
